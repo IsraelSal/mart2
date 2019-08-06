@@ -1,1 +1,1 @@
-web: node app.js
+web: node C:/Users/israel.salgado/Desktop/martisrael/bin/www
