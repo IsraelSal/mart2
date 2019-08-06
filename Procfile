@@ -1,1 +1,1 @@
-web: node C:/Users/israel.salgado/Desktop/martisrael/bin/www
+web: node node ./bin/www.js
