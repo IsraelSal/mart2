@@ -23,5 +23,16 @@
   "description": "meteomarte",
   "main": "app.js",
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bin": {
+    "israel": "www.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IsraelSal/mart2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/IsraelSal/mart2/issues"
+  },
+  "homepage": "https://github.com/IsraelSal/mart2#readme"
 }
