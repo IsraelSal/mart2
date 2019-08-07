@@ -21,4 +21,4 @@ look this: https://devcenter.heroku.com/articles/procfile
 feel free to share or update.
 
 good lecture!
-thanks to Miky for the Json help!
+Israel
