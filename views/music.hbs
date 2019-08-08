@@ -1,12 +1,40 @@
 <div class="music">
 <div>
-  <h1 class="music__heading">Sol </h1>
-  <a class="link" href="/albums">{{data}}</a>
+  <h1 class="music__heading"><a class="link" href="/">{{giorni}}</a></h1>
+    <h1><a class="link" href="/">{{datecast}}</a></h1>
+  <h1><a class="link" href="/albums">{{temperatura}}</a></h1>
+  <h1><a class="link" href="/albums">{{massimo}}{{minimo}}</a></h1>
+
+
+  <!--<a class="link" href="/albums">{{giorni}}</a>-->
 </div>
 
-  <a class="link" href="/albums"><button type="submit">Refresh</button></a>
-  <a class="link" href="/genres"><button type="submit">C°/F°</button></a>
+<div id="nascondi" style="visibility:hidden">
+  <h1><a class="link" href="/genres">{{temperatura}}</a></h1>
+  <h1><a class="link" href="/genres">{{massimo}}{{minimo}}</a></h1>
+  
 
+  <!--<a class="link" href="/albums">{{giorni}}</a>-->
+</div>
+
+<script>
+  function show() {
+  var x = document.getElementById("nascondi");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+    <row>
+      <col>
+  <a class="link" href="/albums"><button type="submit">Refresh</button></a>
+  </col>
+  <col>
+  <a class="link" href="/genres"><button onclick="show()" type="submit">C°/F°</button></a>
+  </col>
+</row>
   <!--<a class="link" href="/albums">Go to albums</a>
   <a class="link" href="/artists">Go to artists</a>
   <a class="link" href="/genres">Go to genres</a>
