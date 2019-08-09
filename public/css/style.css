@@ -1,15 +1,18 @@
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; 
-  background-image: url("../img/ROV.png");
+  font: 24px "Lucida Grande", Helvetica, Arial, sans-serif; 
+  background-image: url("../img/marts.png");
+  background-size: cover;
 }
 
 .link {
   padding: 8px;
-  color: #3d7e9a;
-  text-decoration: none; }
+  color: #4383bb;
+  text-decoration: none; 
+  font-size: 31px;}
   .link--home {
-    color: #e8999a; }
+    color: #e8999a;
+   }
 
 .music {
   display: flex;
@@ -18,8 +21,11 @@ body {
   justify-content: center;
   max-width: 1200px;
   margin: 0 auto;
-  BACKGROUND-COLOR: #131111;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08); }
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08); 
+  background-image: url("../img/marte.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
   .pulsante{
     color: #5f2431;
     height: 99px;
@@ -30,17 +36,10 @@ body {
   .music__heading {
     position: relative;
     color: #808c99;
-    font-size: 2rem; }
-    .music__heading:before {
+    font-size: 6rem;}
+  .music__heading:before {
       position: absolute;
-      content: '';
-      background-image: url("../img/marte.png");
-      background-size: cover;
-      background-repeat: no-repeat;
-      height: 177px;
-      width: 326px;
-      left: -324px;
-      top: 3px; }
+      content: '';}
   .music__description {
     color: #767676;
     font-size: 1rem; }
