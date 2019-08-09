@@ -4,7 +4,7 @@ The example show the temperature in Mart, with the api from NASA.
 
 > https://tranquil-plateau-88748.herokuapp.com/
 
-The project is base on the template of Node js MVC not to Slice.js framework,
+The project is base on the template of Node js MVC not to Sails.js framework,
 for more info about the template: 
 
 > https://github.com/Inglebard/snMVC
