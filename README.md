@@ -8,6 +8,8 @@ The project is base on the template of Node js MVC not to Slice.js framework,
 for more info about the template: 
 
 > https://github.com/Inglebard/snMVC
+Heroku with git:
+> https://devcenter.heroku.com/articles/git
 
 This propost was a proof for pubblish node js app on heroku.
 Inside you find a interesting use of controller for how map the external json
